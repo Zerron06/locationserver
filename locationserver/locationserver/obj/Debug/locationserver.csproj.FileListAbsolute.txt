@@ -5,3 +5,10 @@ C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locati
 C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
 C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.exe
 C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.pdb
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug\locationserver.exe.config
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug\locationserver.exe
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug\locationserver.pdb
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.AssemblyReference.cache
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.exe
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.pdb

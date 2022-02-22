@@ -2,8 +2,10 @@
 using System.Net.Sockets;
 using System.IO;
 using System.Net;
+using System.Collections.Generic;
 public class Whois
 {
+   static Dictionary<string, string> clientData = new Dictionary<string, string>();
     static void Main(string[] args)
     {
         runServer();
@@ -21,6 +23,8 @@ public class Whois
             while (true)
             {
                 connection = listener.AcceptSocket();
+                connection.SendTimeout = 1000;
+                connection.ReceiveTimeout = 1000;
                 socketStream = new NetworkStream(connection);
                 Console.WriteLine("Connection Received");
                 doRequest(socketStream);
@@ -41,26 +45,53 @@ public class Whois
             StreamWriter sw = new StreamWriter(socketStream);
             StreamReader sr = new StreamReader(socketStream);
 
-            //sw.WriteLine(args[0]);
-            //sw.Flush();
-            //Console.WriteLine(sr.ReadToEnd());
-
-            string line = sr.ReadLine().Trim();
+            string line = sr.ReadLine();
             Console.WriteLine("Response Received " + line);
             string[] sections = line.Split(new char[] {' '},2);
-            switch (sections[0])
-            {
-                case "lookup":
-                    Console.WriteLine("lookup Performed: Returned: " + sections[1]);
-                    sw.WriteLine(sections[1]);
-                    sw.Flush();
-                    break;
-                
-                default:
-                    Console.WriteLine("Unrecognised command");
-                    break;
 
+            string location = null;
+            string username = null;
+
+            if (sections.Length == 1)
+            {
+                username = sections[0];
+                
+                if (clientData.ContainsKey(username))
+                {
+                    location = clientData[username];
+                    sw.WriteLine(location);
+                    sw.Flush();
+
+                }
+                else
+                {
+                    location = "ERROR: no entries found";
+                    sw.WriteLine(location);
+                    sw.Flush();
+                }
             }
+            else if (sections.Length == 2)
+            {
+                username = sections[0];
+                location = sections[1];
+                
+                if (clientData.ContainsKey(username))
+                {
+                    clientData[username] = location;
+                    sw.WriteLine("OK");
+                    sw.Flush();
+
+                }
+                else
+                {
+                    clientData.Add(username, location);
+                    sw.WriteLine("OK");
+                    sw.Flush();
+                }
+            }
+            
+           
+          
         }
         catch
         {
