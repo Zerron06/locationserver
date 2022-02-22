@@ -1,0 +1,7 @@
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\bin\Debug\locationserver.exe.config
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\bin\Debug\locationserver.exe
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\bin\Debug\locationserver.pdb
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.csprojAssemblyReference.cache
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.exe
+C:\Users\Cedric's PC\source\repos\locationserver\locationserver\obj\Debug\locationserver.pdb
