@@ -8,3 +8,5 @@
 22/02/2022 16:19:46.79 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 5 passed, 0 advisory, 3 failed (of 16 total). 
 22/02/2022 16:23:14.16 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 16 passed, 0 advisory, 0 failed (of 16 total). 
 Lab2Test can be signed off for CEDRIC PEPIN (638372) at 22/02/2022 16:23:17.13 on FEN-052-C-02 
+07/03/2022 16:50:31.40 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 16 passed, 0 advisory, 0 failed (of 16 total). 
+Lab2Test can be signed off for CEDRIC PEPIN (638372) at 07/03/2022 16:50:33.12 on BJL-4F-35 
