@@ -12,3 +12,5 @@ G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug
 G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
 G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.exe
 G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.pdb
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.Form1.resources
+G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.GenerateResource.cache

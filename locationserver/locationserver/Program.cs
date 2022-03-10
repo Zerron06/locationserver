@@ -7,7 +7,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-//using System.Windows.Forms;
+using System.Windows.Forms;
 
 public class Whois
 {
@@ -19,6 +19,8 @@ public class Whois
     public static Logging Log;
 
     static bool Interface = false;
+
+    
 
     public static void Main(string[] args)
     {
@@ -44,12 +46,12 @@ public class Whois
         {
             runServer();
         }
-        //else
-        //{
-        //    Application.EnableVisualStyles();
-        //    Application.SetCompatibleTextRenderingDefault(false);
-        //    Application.Run(new ServerForm());
-        //}
+        else
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new ());
+        }
     }
 
     static Dictionary<string, string> clientDic = new Dictionary<string, string>();
