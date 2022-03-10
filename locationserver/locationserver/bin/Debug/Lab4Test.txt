@@ -1,1 +1,20 @@
 08/03/2022 17:05:31.92 All tests completed: 0 passed, 10 advisory, 2 failed. 
+09/03/2022 13:34:57.16 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 6 passed, 7 advisory, 6 failed (of 168 total). 
+09/03/2022 13:39:24.52 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 6 passed, 7 advisory, 6 failed (of 168 total). 
+09/03/2022 13:40:08.26 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 0 passed, 0 advisory, 0 failed (of 168 total). 
+Lab4Test can be signed off for CEDRIC PEPIN (638372) at 09/03/2022 13:40:09.22 on BJL-3F-74 
+09/03/2022 13:41:37.98 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 6 passed, 7 advisory, 6 failed (of 168 total). 
+09/03/2022 13:53:10.35 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 6 passed, 7 advisory, 6 failed (of 168 total). 
+09/03/2022 13:54:58.75 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 6 passed, 7 advisory, 6 failed (of 168 total). 
+09/03/2022 14:38:21.72 All tests completed: 4 passed, 6 advisory, 2 failed. 
+09/03/2022 14:39:56.69 All tests completed: 4 passed, 6 advisory, 2 failed. 
+10/03/2022 10:21:55.68 All tests completed: 4 passed, 6 advisory, 2 failed. 
+10/03/2022 10:32:46.22 All tests completed: 4 passed, 6 advisory, 2 failed. 
+10/03/2022 10:45:48.01 All tests completed: 7 passed, 2 advisory, 2 failed. 
+10/03/2022 10:47:07.62 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 0 passed, 1 advisory, 0 failed (of 168 total). 
+10/03/2022 10:50:39.52 All tests completed: 7 passed, 2 advisory, 2 failed. 
+10/03/2022 11:16:59.54 All tests completed: 7 passed, 2 advisory, 2 failed. 
+10/03/2022 11:22:01.58 All tests completed: 7 passed, 2 advisory, 2 failed. 
+10/03/2022 11:26:31.53 All tests completed: 7 passed, 2 advisory, 2 failed. 
+10/03/2022 11:27:32.70 All tests completed: 0 passed, 10 advisory, 2 failed. 
+10/03/2022 11:30:45.70 All tests completed: 0 passed, 10 advisory, 2 failed. 
