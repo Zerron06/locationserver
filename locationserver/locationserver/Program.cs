@@ -130,27 +130,24 @@ namespace locationserver
                     //HTTP 1.1 update
                     else if (line.StartsWith("POST / HTTP/1.1") && (sr.Peek() >= 0))
                     {
-                        string location;
-                        string username;
+                        string[] location;
 
                         sr.ReadLine();//This function allows to read next line of the request
                         sr.ReadLine();
                         sr.ReadLine();
+                        line = sr.ReadLine();
+                        string[] split2 = line.Split(new char[] { '&' }, 2);//This array is spliting the line by £ symbol
+                        location = split2[1].Split(new char[] { '=' }, 2);
+                        string[] username = split2[0].Split(new char[] { '=' }, 2);
 
-                        string[] split2 = sr.ReadLine().Split(new char[] { '£' });//This array is spliting the line by & symbol
-                        string[] splituser = split2[0].Split(new char[] { '=' });
-                        string[] splitLoc = split2[1].Split(new char[] { '=' });
-                        username = splituser[1];//assigning the username and removing not needed symbols from the protocol
-                        location = splitLoc[1];//assigning the location and removing not needed symbols from the protocol
-
-                        if (clientDic.ContainsKey(username))
+                        if (clientDic.ContainsKey(username[1]))
                         {
-                            clientDic[username] = location;
+                            clientDic[username[1]] = location[1];
                             sw.WriteLine("HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\n");
                         }
                         else
                         {
-                            clientDic.Add(username, location);
+                            clientDic.Add(username[1], location[1]);
                             sw.WriteLine("HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\n");
                         }
                     }

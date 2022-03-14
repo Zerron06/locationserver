@@ -1,0 +1,4 @@
+14/03/2022 15:03:48.12 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 3 passed, 0 advisory, 0 failed. 
+Lab5Test can be signed off for CEDRIC PEPIN (638372) at 14/03/2022 15:03:50.66 on BJL-3F-26 
+14/03/2022 15:06:36.98 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 3 passed, 0 advisory, 0 failed. 
+Lab5Test can be signed off for CEDRIC PEPIN (638372) at 14/03/2022 15:06:39.63 on BJL-3F-26 
