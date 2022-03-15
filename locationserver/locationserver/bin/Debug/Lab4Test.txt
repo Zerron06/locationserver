@@ -20,3 +20,4 @@ Lab4Test can be signed off for CEDRIC PEPIN (638372) at 09/03/2022 13:40:09.22 o
 10/03/2022 11:30:45.70 All tests completed: 0 passed, 10 advisory, 2 failed. 
 14/03/2022 15:21:24.61 All tests completed: 7 passed, 2 advisory, 2 failed. 
 14/03/2022 15:24:04.50 All tests completed: 7 passed, 2 advisory, 2 failed. 
+15/03/2022 12:29:26.61 All tests of G:\VisualStudio\Networking\loationserver\locationserver\locationserver\bin\Debug completed: 16 passed, 2 advisory, 0 failed (of 168 total). 

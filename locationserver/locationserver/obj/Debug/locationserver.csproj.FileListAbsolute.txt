@@ -14,3 +14,12 @@ G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug
 G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.pdb
 G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.GenerateResource.cache
 G:\VisualStudio\Networking\loationserver\locationserver\locationserver\obj\Debug\locationserver.ServerForm.resources
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\bin\Debug\locationserver.exe.config
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\bin\Debug\locationserver.exe
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\bin\Debug\locationserver.pdb
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.AssemblyReference.cache
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\obj\Debug\locationserver.ServerForm.resources
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.GenerateResource.cache
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\obj\Debug\locationserver.csproj.CoreCompileInputs.cache
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\obj\Debug\locationserver.exe
+G:\VisualStudio\Networking\Client_Server_ACW\locationserver\locationserver\locationserver\obj\Debug\locationserver.pdb
